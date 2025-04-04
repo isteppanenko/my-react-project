@@ -1,4 +1,4 @@
-const Message = ({author='unnamed',message,isOnline}) => {
+const Message = ({username='Inkognito',message,isOnline}) => {
     return (
         <div>
             <h3>{author}</h3>
