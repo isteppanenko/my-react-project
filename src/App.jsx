@@ -5,5 +5,14 @@ import Message from './components/Message/Message';
 import User from './components/User/User';
 import users from './assets/users.json';
 
-const App = () => {};
+const App = () => {
+  const handleClick = () => {
+    return alert('I`m clicked!');
+  };
+  return (
+    <>
+      <button onClick={handleClick}>Click me</button>
+    </>
+  );
+};
 export default App;
