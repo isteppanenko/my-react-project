@@ -5,6 +5,7 @@ import Message from './components/Message/Message';
 import User from './components/User/User';
 import users from './assets/users.json';
 import CustomButton from './components/CustomButton/CustomButton';
+import UseStateButton from './components/CustomButton/UseStateButton/UseStateButton';
 
 const App = () => {
   const handleClick = evt => {
@@ -13,7 +14,8 @@ const App = () => {
   return (
     <>
       <button onClick={handleClick}>Click me</button>
-      <CustomButton message={'Hello bro'} children={'Bro greed'} />
+      <CustomButton message={'Hello bro'} />
+      <UseStateButton />
     </>
   );
 };
